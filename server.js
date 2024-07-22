@@ -19,7 +19,7 @@ cloudinary.v2.config({
 
 
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://mern-pep-frontend.vercel.app"],
     credentials : true
 }))
 app.use(cookieparser())
