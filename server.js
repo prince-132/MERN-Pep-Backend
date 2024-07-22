@@ -18,7 +18,7 @@ cloudinary.v2.config({
   });
 
 
-app.use(cors())
+app.use(cors(*))
 app.use(cookieparser())
 
 app.use(express.json());
