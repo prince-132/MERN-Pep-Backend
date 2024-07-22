@@ -18,7 +18,10 @@ cloudinary.v2.config({
   });
 
 
-app.use(cors(*))
+app.use(cors({
+    origin: ["https://mern-pep-frontend.vercel.app/"],
+    credentials : true
+}))
 app.use(cookieparser())
 
 app.use(express.json());
